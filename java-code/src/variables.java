@@ -12,8 +12,8 @@ public class variables {
     
     public static void main(String[] args) {
         
-        String imie = "Arek";
-        String nazwisko = "Włodarczyk";
+        String imie = "Adam";
+        String nazwisko = "Grabarczyk";
         long a = 12412412124121554L;
         int b = 6;
         long c;
@@ -44,11 +44,26 @@ public class variables {
         
         float liczba2 = 4.57f;
         double liczba3 = 56.6121424;
-
+        
+        
         System.out.println("Imię: " + imie + ", nazwisko: " + nazwisko);
         System.out.println(liczba3);
         
+        
+        
+        
+        int z = 5, y = 2;
+        double p = 12, d = 15;
+        
+        System.out.println(a / (double)b);
+        
+        
+        int wynik1 = z / (int)d;
+        double wynik2 = z / d;
+        
+        System.out.println(1.0 / 5);
+    }
        
     }
     
-}
+
