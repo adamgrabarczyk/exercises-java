@@ -37,6 +37,31 @@ public class Conditionals {
             System.out.println("lala");
        }
      
+       
+       
+       
+       
+       /*
+            Switch (przełącznik)
+        */
+        char l = 50;
+        switch(l)
+        {
+            case 50:
+                System.out.println("l jest równe 50");
+                break;
+            case 100:
+                System.out.println("l jest równe 100");    
+                break;
+            default:
+                System.out.println("l nie jest równe ani 50 ani 100 jest równe " + l);
+        }
+       
+       
+       
+       
+       
+       
      
      }
     
