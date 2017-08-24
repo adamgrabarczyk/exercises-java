@@ -56,6 +56,30 @@ public class Conditionals {
             default:
                 System.out.println("l nie jest równe ani 50 ani 100 jest równe " + l);
         }
+        
+        
+        
+         /*
+            wyrażenie ? tu piszemy co ma sie stac jesli wyrazenie to true : co ma sie stac jesli wyrazenie jest false;
+            
+        */
+        
+        int x = 6;
+//        
+//        if (x % 2 == 0)
+//            System.out.println("parzysta");
+//        else
+//            System.out.println("nieparzysta");
+//        
+        
+        String czyParzysta = x % 2 == 0 ? "parzysta" : "nieparzysta";
+        
+        System.out.println(czyParzysta);
+        
+        
+        
+        
+        
        
        
        
