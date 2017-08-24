@@ -23,13 +23,13 @@ public class loops {
             "C# LINQ",
             "Pascal"
         };
-        int i = 0;
-        while(i < kursyProgramowania.length)
-        {           
-            System.out.println(kursyProgramowania[i]);
-            
-            i++;
-        }
+//        int i = 0;
+//        while(i < kursyProgramowania.length)
+//        {           
+//            System.out.println(kursyProgramowania[i]);
+//            
+//            i++;
+//        }
       /*  
         i = 1;
         do
@@ -40,6 +40,57 @@ public class loops {
        }while(i < kursyProgramowania.length);
               */
         
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      // for (INICJALIZACJA ZMIENNYCH; WARUNEK PETLI; CO MA SIE STAC PO WYKONANIU INSTRUKCJI WSZYSTKICH W PETLI)
+        for(int z = 0; z < kursyProgramowania.length; z++)
+        {           
+            System.out.println(kursyProgramowania[z]);           
+           
+        }
+        
+        
+        
+      /*  
+        i = 1;
+        do
+        {
+           System.out.println(kursyProgramowania[i]);
+            
+            i++; 
+       }while(i < kursyProgramowania.length);
+              */
+        
+    
+      
+      
+       //ENHANCED FOR
+      
+        for(String nazwaKursu: kursyProgramowania)
+        {
+            System.out.println(nazwaKursu);
+        }
+        
+        
+      /*  
+        i = 1;
+        do
+        {
+           System.out.println(kursyProgramowania[i]);
+            
+            i++; 
+       }while(i < kursyProgramowania.length);
+              */
+        
+      
+      
     }
     
 }
