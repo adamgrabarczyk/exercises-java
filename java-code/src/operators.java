@@ -1,4 +1,4 @@
-package operators;
+
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -50,7 +50,32 @@ public class operators {
         System.out.println(a--);
         System.out.println(a);
         
-        System.out.println("daskasjdas");
+        
+        
+        
+         /*
+            OPERATOR RELACYJNY (PORÓWNANIA)
+            
+            == - porównanie
+            != - porównanie czy są różne od siebie
+            > - większe od
+            < - mniejsze od
+            >= - większe bądź równe
+            <= - mniejsze bądź rowne
+        */
+        int z = 5,
+            b = 7;
+       
+        System.out.println(z > b);
+        
+        
+        
+        
+        
+        
+        
+        
+        
     }
     
 }
