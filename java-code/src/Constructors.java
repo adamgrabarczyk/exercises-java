@@ -4,12 +4,12 @@ public class Constructors {
     
     public static void main(String[] args) {
     
-        new Point();
+       
     
         
         Point p;
         
-        p = new Point();
+        p = new Point(10, 5);
         
         p.x = 5;
         p.y =20;
@@ -29,7 +29,17 @@ class Point {
 
     Point() {
 System.out.println("wywołano konstruktor domyśłny");
-}
+//
+//    x = 20;  domyslne wartosci
+//    y = 20;
+    
+    }
+    
+    Point(int one, int two){
+
+        System.out.println("wywołano konstruktor domyśłny z dwoma parametrami");
+    }
+    
     
     int x;   
     int y;
