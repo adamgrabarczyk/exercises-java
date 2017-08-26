@@ -7,15 +7,23 @@ public class Constructors {
        
     
         
-        Point p;
+        Point p = new Point(10, 5);
         
-        p = new Point(10, 5);
+        Point p2 = new Point(100, 500);
         
-        p.x = 5;
-        p.y =20;
-        
+//        p.x = 5;
+//        p.y =20;
+//        
+
         System.out.println("p.x:"+p.x);
         System.out.println("p.y:"+p.y);
+        
+        
+        System.out.println("p2.x:"+p2.x);
+        System.out.println("p2.y:"+p2.y);
+        
+        
+        
         
     }
     
@@ -37,7 +45,12 @@ System.out.println("wywołano konstruktor domyśłny");
     
     Point(int one, int two){
 
-        System.out.println("wywołano konstruktor domyśłny z dwoma parametrami");
+        System.out.println("wywołano konstruktor z dwoma parametrami");
+
+x = one;
+
+y = two;
+
     }
     
     
