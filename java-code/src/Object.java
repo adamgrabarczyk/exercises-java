@@ -26,5 +26,17 @@ public class Object {
           
           int height;
           
+          void run() {
+          
+          }
+ 
+          void turnOff() {
+          
+          
+          }
+          
           
       }
+
+
+
