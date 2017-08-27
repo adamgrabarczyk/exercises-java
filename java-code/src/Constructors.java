@@ -47,9 +47,9 @@ System.out.println("wywołano konstruktor domyśłny");
 
         System.out.println("wywołano konstruktor z dwoma parametrami");
 
-x = one;
+this.x = one;
 
-y = two;
+this.y = two;
 
     }
     
