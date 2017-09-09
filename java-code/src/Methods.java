@@ -16,7 +16,7 @@ test a2 = new test();
 
 a2.print("Seba","Glizdogon");
 
-int wynik = a.add(10, 20);
+double wynik = a.add(10.20, 20.80);
 
 double wynik2 = a.division(5, 7);
 
@@ -38,6 +38,11 @@ System.out.println("surname: "+ surname);
 }
    
     int add(int a, int b){
+    
+    return a + b;
+    }
+    
+    double add(double a, double b){
     
     return a + b;
     }
