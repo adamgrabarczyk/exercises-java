@@ -13,8 +13,8 @@ public class encapsulation {
     
 //    savings.saldo = 100000;
     
-savings.setSaldo(100);
-
+savings.payment(200);
+ 
         System.out.println(savings.getSaldo());
     
     }
@@ -37,11 +37,32 @@ int getSaldo(){              // getter!
             }             
 
 
-void setSaldo(int saldo){             // setter!
+boolean setSaldo(int saldo){             // setter!
 
+    
+   /* 
+    
+Conditionals
+*/   
     this.saldo = saldo;              // this uzywamy zeby wiedzial czy chodzi nam o parametr czy aktualna wartosc
+    return true;
     
 }
+
+
+
+boolean payment(int howMany) {
+
+    if(saldo < howMany)
+        return false;
+    else
+        
+        setSaldo(saldo - howMany);
+//        saldo -= howMany;
+return true;
+    
+}
+
 
 
 }
