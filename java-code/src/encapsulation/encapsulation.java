@@ -11,6 +11,8 @@ public class encapsulation {
     
     acountBank savings = new acountBank();
     
+    savings.paymentIn(5000);
+    
 //    savings.saldo = 100000;
     
 if (savings.payment(2000)){
@@ -21,6 +23,8 @@ if (savings.payment(2000)){
 else
     System.out.println("za mało pieniędzy");
  
+
+
         System.out.println(savings.getSaldo());
     
     }
@@ -69,6 +73,12 @@ return true;
     
 }
 
+boolean paymentIn(int howMany){
+
+    setSaldo( saldo + howMany);
+    
+    return true;
+}
 
 
 }
