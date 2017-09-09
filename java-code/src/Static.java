@@ -1,6 +1,8 @@
 
 public class Static {
     
+    int blala;
+    
      public static void main(String[] args) {
      
         
