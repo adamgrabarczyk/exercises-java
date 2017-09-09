@@ -12,6 +12,17 @@ public class Static {
        
        System.out.println(mathematic.PI);
      
+     
+     
+     
+     
+     Client a = new Client("Arek");
+     Client b = new Client("Damian");
+     Client c = new Client("Prek");
+Client d = new Client("Czesiek");     
+     
+System.out.println(c.id);
+
      }
     
 }
@@ -29,3 +40,18 @@ static double add(double a, double b) {
     
 }
 
+class Client {
+
+    Client(String imie){
+    this.imie = imie;
+        nextId++;
+        
+    id = nextId;
+    }
+    
+    String imie;
+
+int id = 0;
+
+static int nextId = 0;
+}
