@@ -18,8 +18,11 @@ a2.print("Seba","Glizdogon");
 
 int wynik = a.add(10, 20);
 
+double wynik2 = a.division(5, 7);
 
 System.out.println(wynik);
+
+System.out.println(wynik2);
       }
     
      
@@ -38,6 +41,16 @@ System.out.println("surname: "+ surname);
     
     return a + b;
     }
+    
+    double division (double a, double b){
+    
+        if (b == 0)
+            return 0;
+        System.out.println("division");
+        return a/b ;
+    }
+    
+    
     
 }
  
