@@ -13,7 +13,13 @@ public class encapsulation {
     
 //    savings.saldo = 100000;
     
-savings.payment(200);
+if (savings.payment(2000)){
+
+    System.out.println("wypłacono");
+    
+}
+else
+    System.out.println("za mało pieniędzy");
  
         System.out.println(savings.getSaldo());
     
