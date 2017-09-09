@@ -30,7 +30,8 @@ class test {
 
     void print (String name, String surname){
    
-System.out.println("name: "+name + " " +"surname: "+ surname);
+System.out.println("name: "+name);
+System.out.println("surname: "+ surname);
 }
    
     int add(int a, int b){
