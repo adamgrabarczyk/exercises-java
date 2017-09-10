@@ -19,6 +19,17 @@ public class reference {
         y.a = 40;
         
         System.out.println(z.a);
+    
+    
+    String name = "Arkadiusz";
+    
+    String name2 = name;
+    
+    name2 = "siaiala";
+    
+    
+        System.out.println(name2);
+    
     }
     
 }
