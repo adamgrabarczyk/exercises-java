@@ -47,7 +47,7 @@ int getSaldo(){              // getter!
             }             
 
 
-boolean setSaldo(int saldo){             // setter!
+private  boolean setSaldo(int saldo){             // setter!
 
     
    /* 
