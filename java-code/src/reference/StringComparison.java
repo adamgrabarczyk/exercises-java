@@ -4,9 +4,9 @@ public class StringComparison {
 
     public static void main(String[] args) {
         
-        String name = "Adam";
+        String name = new String ("Adam");
         
-        String name2 =  "Adam";
+        String name2 = new String ( "Adam");
         
         
         if (name.equals(name2)) {
