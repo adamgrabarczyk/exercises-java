@@ -13,6 +13,14 @@ public class passingValues {
   
         System.out.println(a);
   
+        
+        Foo foo = new Foo();
+        
+        
+        x.changeReference(foo);
+   
+        System.out.println(foo.y);
+    
     }
     
 }
@@ -25,4 +33,18 @@ class someTest {
         zm = zm + 2;
     return zm;
     }
+    
+    void changeReference(Foo zm) {
+
+        zm.y = zm.y + 40;
+        
 }
+}
+
+
+class Foo {
+
+int y = 20;
+}
+
+
