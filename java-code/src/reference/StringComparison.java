@@ -9,7 +9,7 @@ public class StringComparison {
         String name2 =  "Adam";
         
         
-        if (name == name2) {
+        if (name.equals(name2)) {
             System.out.println("Adam");
         }
         
