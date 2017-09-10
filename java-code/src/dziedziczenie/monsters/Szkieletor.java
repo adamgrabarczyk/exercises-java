@@ -18,4 +18,14 @@ public class Szkieletor extends Monster{
     }
     
     
+    public Szkieletor(double predkoscChodzenia, double zywotnosc) {
+    
+        super(predkoscChodzenia, zywotnosc);
+        
+        System.out.println("nie domyśłny konstruktor z klasy SZKIELETOR");
+        
+        
+    
+    }
+    
 }
