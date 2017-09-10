@@ -9,6 +9,13 @@ package dziedziczenie.monsters;
  *
  * @author adam
  */
-public class Szkieletor {
+public class Szkieletor extends Monster{
+    
+    public Szkieletor() {
+    
+        System.out.println("Domyśłny konstruktor z klasy SZKIELETOR");
+    
+    }
+    
     
 }

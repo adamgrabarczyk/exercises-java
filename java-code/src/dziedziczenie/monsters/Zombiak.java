@@ -9,6 +9,12 @@ package dziedziczenie.monsters;
  *
  * @author adam
  */
-public class Zombiak {
+public class Zombiak extends Monster{
+    
+    public Zombiak() {
+    
+    System.out.println("Domyśłny konstruktor z klasy Zombie");
+        
+    }
     
 }

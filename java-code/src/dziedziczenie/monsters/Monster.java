@@ -11,4 +11,36 @@ package dziedziczenie.monsters;
  */
 public class Monster {
     
+    public double predkoscChodzenia = 10;
+    
+   public double zywotnosc;
+    
+   public void atakuj(){
+    
+        System.out.println("to jest metoda atakuj z klasy potwor");
+    }
+   
+   
+   
+   public Monster() {
+   
+       System.out.println("Domyśłny konstruktor z klasy monster");
+       
+   }
+   
+   
+   
+   public Monster(double redkoscChodzenia, double zywotnosc) {
+   
+       this.predkoscChodzenia = redkoscChodzenia;
+       
+       this.zywotnosc = zywotnosc;
+   
+   System.out.println("nie domyśłny konstruktor z klasy monster");
+       
+   }
+   
+   
+   
+   
 }
