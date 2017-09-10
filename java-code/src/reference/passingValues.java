@@ -9,7 +9,7 @@ public class passingValues {
         
   someTest x = new someTest();
   
-  x.changeValue(a);
+ a = x.changeValue(a);
   
         System.out.println(a);
   
@@ -20,8 +20,9 @@ public class passingValues {
 
 class someTest {
 
-    void changeValue(int zm) {
+    int changeValue(int zm) {
     
         zm = zm + 2;
+    return zm;
     }
 }
