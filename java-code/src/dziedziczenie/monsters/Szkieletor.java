@@ -6,10 +6,23 @@
 package dziedziczenie.monsters;
 
 /**
- *
+ * 
  * @author adam
  */
 public class Szkieletor extends Monster{
+    
+    
+    public void atakuj() {
+    
+        super.atakuj();
+        
+        
+        System.out.println("to jest metoda atakuj z kasy szkielet");
+    };
+    
+    
+    String typBroni;
+    
     
     public Szkieletor() {
     
@@ -17,10 +30,16 @@ public class Szkieletor extends Monster{
     
     }
     
+     public Szkieletor(double predkoscChodzenia, double zywotnosc) {
+     
+         super(predkoscChodzenia, zywotnosc);
+     }
     
-    public Szkieletor(double predkoscChodzenia, double zywotnosc) {
+    
+    public Szkieletor(double predkoscChodzenia, double zywotnosc, String typBroni) {
     
         super(predkoscChodzenia, zywotnosc);
+        this.typBroni = typBroni;
         
         System.out.println("nie domyśłny konstruktor z klasy SZKIELETOR");
         

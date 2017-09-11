@@ -13,8 +13,10 @@ public class dziedziczenie {
         
         System.out.println(p.predkoscChodzenia);
         
-       Szkieletor s = new Szkieletor(20, 40);
-        
+       Szkieletor s = new Szkieletor(20, 40, "Łuk");
+       s.atakuj();
+       
+       
         System.out.println(s.predkoscChodzenia);
        
        
