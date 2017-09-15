@@ -10,6 +10,7 @@ public class dziedziczenie {
     public static void main(String[] args) {
         
         Monster p = new Szkieletor(10, 100);
+        Monster p2 = new Zombiak();
         
         p.atakuj();
         
@@ -25,7 +26,16 @@ public class dziedziczenie {
 //       Zombiak z = new Zombiak();
 //       
        
-       
+       // polimorfizm - przy pomocy jednej nazwy odwołać się do wielu nazw jednocześnie .
+       //mozna przypisac klase-rodzic do kalsy-dziecko
     }
+    
+    
+    void method(Monster monster) {
+    
+    
+    
+    }
+    
     
 }
