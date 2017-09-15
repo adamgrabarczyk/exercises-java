@@ -32,7 +32,10 @@ public class Szkieletor extends Monster{
     
      public Szkieletor(double predkoscChodzenia, double zywotnosc) {
      
+            
          super(predkoscChodzenia, zywotnosc);
+     System.out.println("niedomyslny konstruktor z klasy szkieletor z 2 parametrami");
+     
      }
     
     

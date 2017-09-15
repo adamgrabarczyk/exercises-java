@@ -9,19 +9,21 @@ public class dziedziczenie {
 
     public static void main(String[] args) {
         
-        Monster p = new Monster(10, 100);
+        Monster p = new Szkieletor(10, 100);
         
-        System.out.println(p.predkoscChodzenia);
+        p.atakuj();
         
-       Szkieletor s = new Szkieletor(20, 40, "Łuk");
-       s.atakuj();
-       
-       
-        System.out.println(s.predkoscChodzenia);
-       
-       
-       Zombiak z = new Zombiak();
-       
+//        System.out.println(p.predkoscChodzenia);
+//        
+//       Szkieletor s = new Szkieletor(20, 40, "Łuk");
+//       s.atakuj();
+//       
+//       
+//        System.out.println(s.predkoscChodzenia);
+//       
+//       
+//       Zombiak z = new Zombiak();
+//       
        
        
     }
