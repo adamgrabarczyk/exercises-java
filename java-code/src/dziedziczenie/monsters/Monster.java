@@ -11,9 +11,9 @@ package dziedziczenie.monsters;
  */
 public class Monster {
     
-    public double predkoscChodzenia = 10;
+    protected double predkoscChodzenia = 10;
     
-   public double zywotnosc;
+   protected double zywotnosc;
     
    public void atakuj(){
     
