@@ -9,5 +9,13 @@ public class Spider extends Monster {
         //this.predkoscChodzenia; // jeżeli klasa rozszerza inna klase to mamy dostep do metod protected
     
     }
+
+    /**
+     *
+     */
+    @Override
+    protected void description() {
+
+    }
     
 }

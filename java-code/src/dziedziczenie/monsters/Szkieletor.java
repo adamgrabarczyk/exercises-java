@@ -49,5 +49,10 @@ public class Szkieletor extends Monster{
         
     
     }
+
+    @Override
+    protected void description() {
+     
+    }
     
 }

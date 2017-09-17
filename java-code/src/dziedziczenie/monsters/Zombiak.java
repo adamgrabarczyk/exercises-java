@@ -16,5 +16,10 @@ public class Zombiak extends Monster{
     System.out.println("Domyśłny konstruktor z klasy Zombie");
         
     }
+
+    @Override
+    protected void description() {
+       
+    }
     
 }
