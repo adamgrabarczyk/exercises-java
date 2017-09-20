@@ -12,6 +12,13 @@ public class instanceOff {
        person[1] = new Student("Mateusz", "Jakiś");
       
        person[1].downloadDescrition();
+       
+       for (int i = 0; i < person.length; i++) {
+       
+           person[i].downloadDescrition();
+           
+       }
+       
     }
 
     
