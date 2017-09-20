@@ -1,14 +1,41 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package instanceOff;
 
-/**
- *
- * @author adam
- */
 public class instanceOff {
+
+    public static void main(String[] args) {
+        
+ 
+       Person[] person = new Person[4];
+        
+       person[0] = Employee();
+       
+       person[1] = new ();
+       
+    }
+
     
 }
+
+
+abstract class Person {
+
+String name;
+
+String surname;
+    
+}
+
+
+class Employee extends Person{
+
+double salary;
+    
+}
+
+
+class Student extends Person{
+ 
+    
+    
+}
+
