@@ -13,12 +13,12 @@ public class instanceOff {
       
        person[1].downloadDescrition();
        
-       for (int i = 0; i < person.length; i++) {
+       for (Person personn: person) {
        
-           if (person[i] instanceof Person)      // deklaruje instancje klasy person(sprawdza czy jest egzemplarzem klasy person)
-           person[i].downloadDescrition();
-           else
-               break;
+           if (personn instanceof Employee)      // deklaruje instancje klasy person(sprawdza czy jest egzemplarzem klasy person)
+           {
+               ((Employee)personn).downloadDescrition();
+           }
        }
        
     }
@@ -66,7 +66,11 @@ double salary;
     }
     
 
+ void work () {
  
+     System.out.println("ja pracuj");
+ 
+ }
 
 
 }
