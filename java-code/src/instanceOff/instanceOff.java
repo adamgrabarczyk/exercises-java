@@ -15,9 +15,10 @@ public class instanceOff {
        
        for (int i = 0; i < person.length; i++) {
        
-           if (person[i] instanceof Person)
+           if (person[i] instanceof Person)      // deklaruje instancje klasy person(sprawdza czy jest egzemplarzem klasy person)
            person[i].downloadDescrition();
-           
+           else
+               break;
        }
        
     }
