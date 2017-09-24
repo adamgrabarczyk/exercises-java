@@ -17,7 +17,10 @@ public class instanceOff {
        
            if (personn instanceof Employee)      // deklaruje instancje klasy person(sprawdza czy jest egzemplarzem klasy person)
            {
-               ((Employee)personn).downloadDescrition();
+              Employee tmp = (Employee)personn;
+           
+              tmp.work();
+                          
            }
        }
        
