@@ -26,6 +26,17 @@ abstract class Person {
 
 class Employee extends Person {
 
-    final Date dataZatrudnienia = new Date();   // w tym przypadku trzeba zdefiniować odrazu zmienna
+     Employee() {
+    
+    this.dataZatrudnienia = new Date();
+    }
+
+    Employee(Date data)
+    {
+    this.dataZatrudnienia = data;
+    }
+    
+    
+    final Date dataZatrudnienia;   // w tym przypadku trzeba zdefiniować odrazu zmienna
 
 }
